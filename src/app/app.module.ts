@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { DetailsComponent } from './details/details.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
+    QuoteComponent,
     QuoteFormComponent,
-    QuoteComponent
+    DetailsComponent,
+    DateCountPipe
   ],
+
+
   imports: [
     BrowserModule,
     AppRoutingModule,
