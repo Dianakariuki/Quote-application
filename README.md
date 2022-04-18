@@ -1,5 +1,9 @@
 # QuoteApplication
 
+##### By Diana Kariuki 
+### This is an  angular application that allows you to create a quote through a form. Te quote gets displayed with the date created.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Development server
