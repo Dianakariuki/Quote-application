@@ -14,5 +14,5 @@
         <label for="quote" class="form-label">AUTHOR</label>
         <input type="text" class="form-control" id="author" [(ngModel)]="userInput">
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit"(click)="onSubmit()" class="btn btn-primary">Submit</button>
   </form>
