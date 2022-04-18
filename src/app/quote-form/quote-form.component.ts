@@ -9,14 +9,11 @@ import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 export class QuoteFormComponent implements OnInit {
   title: string = 'QUOTE-APP';
   subtitle: string = 'Create Your Quote';
+  userInput!: string;
 
   onSubmit(): void  {
-    console.log(this.userInput);
+    console.log(this.userInput.name);
   }
-  userInput(userInput: any) {
-    throw new Error('Method not implemented.');
-  }
-  
   constructor() { }
 
   ngOnInit(): void {
