@@ -6,26 +6,43 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
-## Development server
+## Table of Content
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
 
-## Code scaffolding
+## Description
+<p>This is  a website that that allows you to create a quote through a form. The quote gets displayed with the date created.</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+### Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Either a computer,phone,tablet or an Ipad
 
-## Running unit tests
+* An access to the Internet
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation Process
 
-## Running end-to-end tests
+[Go Back to the top](#QuoteApplication)
+## Technology Used
+* HTmL - which was used to build the structure of the pages.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* CSS - which was used to style the pages incuding the left aside navigation bar
+* Angular 
+* bootstrap
 
-## Further help
+## Reference
+* Materialize CSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Go Back to the top](#QUOTE-Appliation)
+
+## Licence
+
+MIT License
+
+Copyright (c) [2019] [Diana kariuki]
